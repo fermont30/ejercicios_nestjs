@@ -1,4 +1,4 @@
-import { Column, CreateDateColumn, DeleteDateColumn, Entity, JoinColumn, OneToMany, OneToOne, PrimaryGeneratedColumn, UpdateDateColumn } from "typeorm";
+import { Column, CreateDateColumn, DeleteDateColumn, Entity, JoinColumn, OneToOne, PrimaryGeneratedColumn, UpdateDateColumn } from "typeorm";
 import { RoleEntity } from "./role.entity";
 
 @Entity('users',{schema:'ventas'})
@@ -52,7 +52,5 @@ price:number;
     comment:'descipcion de la categoria'   
 })
 description:string;
-
-
 
 }
